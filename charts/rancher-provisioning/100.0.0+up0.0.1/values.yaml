@@ -1,0 +1,8 @@
+global:
+  cattle:
+    systemDefaultRegistry: ""
+
+capi:
+  namespace: capi-system
+  core:
+    version: v1.4.4

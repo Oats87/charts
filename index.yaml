@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  cluster-api-operator:
+  - apiVersion: v2
+    appVersion: 0.4.0
+    created: "2023-07-14T13:02:16.233155-07:00"
+    description: Cluster API Operator
+    digest: 77016aa62358a63d1835eb253981a712b97639b16f04c1057b04eaa13f660403
+    name: cluster-api-operator
+    type: application
+    urls:
+    - assets/cluster-api-operator/cluster-api-operator-100.0.0+up0.4.0.tgz
+    version: 100.0.0+up0.4.0
   epinio:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -13322,6 +13333,20 @@ entries:
     urls:
     - assets/rancher-prometheus-adapter/rancher-prometheus-adapter-2.12.101.tgz
     version: 2.12.101
+  rancher-provisioning:
+  - apiVersion: v1
+    appVersion: v0.0.1
+    created: "2023-07-17T09:39:05.681968-07:00"
+    description: Enables Rancher CAPI-based K3s/RKE2 provisioning through the cluster-api-provider-rancher
+    digest: b80a32a107b030d5b98683539c9076ca7ea926277506ec2da58e826343ef002a
+    home: https://github.com/rancher/provisioning/blob/main/chart
+    kubeVersion: '>= 1.23.0-0'
+    name: rancher-provisioning
+    sources:
+    - https://github.com/rancher/provisioning/blob/main/chart
+    urls:
+    - assets/rancher-provisioning/rancher-provisioning-100.0.0+up0.0.1.tgz
+    version: 100.0.0+up0.0.1
   rancher-pushprox:
   - annotations:
       catalog.cattle.io/hidden: "true"
