@@ -1,0 +1,2 @@
+version: 100.0.0
+url: https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.4.0/cluster-api-operator-0.4.0.tgz
